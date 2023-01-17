@@ -1,0 +1,42 @@
+{
+  "name": "cli_chatgpt",
+  "version": "1.0.0",
+  "description": "Essa é uma command line que acesse o chatGPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/index.js",
+    "build": "node bin/index.js",
+    "test": "jest",
+    "testWatch": "jest --watchAll"
+  },
+  "bin": {
+    "chatgpt": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrovboas/cli_chatgpt.git"
+  },
+  "keywords": [
+    "cli",
+    "chatGpt",
+    "openia"
+  ],
+  "author": {
+    "name": "Leandro Vilas Boas",
+    "email": "leandrovboas@msn.com",
+    "url": "http://leandrovboas.com.br"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leandrovboas/cli_chatgpt/issues"
+  },
+  "homepage": "https://github.com/leandrovboas/cli_chatgpt#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0",
+    "dotenv": "^16.0.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.4",
+    "openai": "^3.1.0"
+  }
+}
